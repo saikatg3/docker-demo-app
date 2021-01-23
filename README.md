@@ -1,4 +1,4 @@
-## demo app with Docker
+## Demo Docker App
 
 This demo app shows a simple user profile app set up using 
 - index.html with pure js and css styles
