@@ -18,7 +18,7 @@ services:
       - ME_CONFIG_MONGODB_ADMINPASSWORD=password
       - ME_CONFIG_MONGODB_SERVER=mongodb
   my-docker-app:
-    image: 821312314192.dkr.ecr.ap-south-1.amazonaws.com/my-docker-app:5.3
+    image: my-docker-app:1.0
     ports:
       - 3000:3000
 volumes:
