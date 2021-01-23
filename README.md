@@ -1,4 +1,4 @@
-## demo app - developing with Docker
+## demo app with Docker
 
 This demo app shows a simple user profile app set up using 
 - index.html with pure js and css styles
@@ -50,9 +50,9 @@ Step 1: start mongodb and mongo-express
     
 _You can access the mongo-express under localhost:8080 from your browser_
     
-Step 2: in mongo-express UI - create a new database "my-db"
+Step 2: in mongo-express UI - create a new database "user-account"
 
-Step 3: in mongo-express UI - create a new collection "users" in the database "my-db"       
+Step 3: in mongo-express UI - create a new collection "users" in the database "user-account"       
     
 Step 4: start node server 
 
@@ -65,6 +65,6 @@ Step 5: access the nodejs application from browser
 
 #### To build a docker image from the application
 
-    docker build -t my-app:1.0 .       
+    docker build -t my-docker-app:1.0 .       
     
 The dot "." at the end of the command denotes location of the Dockerfile.
